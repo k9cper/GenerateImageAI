@@ -1,0 +1,12 @@
+Uruchomionie strony:
+
+Z okna Terminal (VScode) lub konsoli cmd należy udać sie do ścieżki katalogu całego projektu (AI Image Generation APP)
+Następnie przechodzi do podfolderu client (cd client)
+i uruchamiamy 'npm run dev' 
+W odpowiedzi powinniśmy otrzymać link do localhost z odpowiednim portem, na którym stoi cały FrontEnd
+BackEnd aplikacji postawiony jest w chmurze, nie trzeba go uruchamiać z okna terminala.
+
+Krótki opis działania:
+Strona internetowa umożliwia użytkownikom generowanie i udostępnianie artystycznych obrazów stworzonych przez sztuczną inteligencję Open AI. 
+Użytkownicy mogą przeglądać istniejące obrazy, generować nowe przy użyciu własnych promptów, a następnie udostępniać swoje dzieła społeczności. 
+Strona wykorzystuje technologie React do frontendu, Node.js z Express do backendu oraz MongoDB i Cloudinary do przechowywania danych i obrazów.
